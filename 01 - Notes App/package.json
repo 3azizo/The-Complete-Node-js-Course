@@ -1,0 +1,16 @@
+{
+  "name": "01---notes-app",
+  "version": "1.0.0",
+  "description": "\"cli notes app\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "3azizo",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "validator": "^13.9.0",
+    "yargs": "^17.7.2"
+  }
+}
