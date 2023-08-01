@@ -51,6 +51,7 @@ const listNotes = () => {
     console.log(chalk.blue(note.title));
   });
 };
+
 const readNote = (title) => {
   const note = notes.find((note) => note.title === title);
   if (note) {
