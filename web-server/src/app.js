@@ -42,6 +42,22 @@ app.get("/weather", (req, res) => {
   });
 });
 
+app.get("/help/*", (req, res) => {
+  res.render("404", {
+    title: "404",
+    name: "3azizo",
+    message: "Help article not found",
+  });
+});
+
+app.get("*", (req, res) => {
+  res.render("404", {
+    title: "404",
+    name: "3azizo",
+    message: "My 404 page, Not Found",
+  });
+});
+
 app.listen(3000, (error) => {
   console.log("server running in part 3000");
 });

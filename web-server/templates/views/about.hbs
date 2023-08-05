@@ -3,11 +3,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
+    <link rel="stylesheet" href="css/styles.css">
+        <link rel="shortcut icon" href="img/weather.png" >
   </head>
   <body>
-    {{>header}}
-
-    <img src="./img/myPic.jpg" alt="pic" style="width: 300px; margin: 0 auto" />
-{{>footer}}
+    <div class="main-content">
+       {{>header}} 
+    <img class="protrait" src="./img/myPic.jpg" alt="pic" />
+    </div>
+      {{>footer}}
   </body>
 </html>

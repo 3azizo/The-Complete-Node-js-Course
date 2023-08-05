@@ -3,12 +3,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Help Page</title>
+        <link rel="shortcut icon" href="img/weather.png" >
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
-    {{>header}}
+    <div class="main-content">
+        {{>header}}
+        <p>{{helpMassage}}</p>
+    </div>
+        {{>footer}}
  
-    <p>{{helpMassage}}</p>
-{{>footer}}
   </body>
 </html>
