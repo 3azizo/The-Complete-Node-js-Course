@@ -4,7 +4,7 @@ body {
   max-width: 650px;
   margin: 0 auto;
   padding: 0 16px;
-
+  text-align: center;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -33,4 +33,19 @@ footer {
   border-top: 1px solid #eeee;
   margin-top: 16px;
   padding: 16px 0;
+}
+input {
+  border: 1px solid #cccccc;
+  padding: 8px;
+}
+button {
+  cursor: pointer;
+  border: 1px solid #888888;
+  background: #888888;
+  color: #fff;
+  padding: 8px;
+}
+#response {
+  margin: 10px;
+  font-family: 600;
 }
